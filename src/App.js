@@ -1,5 +1,6 @@
 import Weather from "./Weather";
 import WeatherSearch from "./WeatherSearch";
+import Footer from "./Footer";
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <h2>Weather search engine</h2>
       <Weather />
       <WeatherSearch city="London" />
+      <Footer />
       </header>
      
     </div>
