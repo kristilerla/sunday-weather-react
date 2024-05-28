@@ -7,13 +7,15 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h2>Weather search engine</h2>
-      <Weather city="Paris"/>
+      <Weather />
       <WeatherSearch city="London" />
       </header>
      
     </div>
    
+   
   );
+
 }
 
 export default App;

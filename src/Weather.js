@@ -1,5 +1,4 @@
 import React from "react";
-import axios from 'axios';
 import { Hearts } from 'react-loader-spinner'
 ;
 
@@ -16,7 +15,7 @@ export default function Weather (){
                 wrapperClass=""
                 visible={true}
                 />)
+
+               
        
 };
-  
-  
